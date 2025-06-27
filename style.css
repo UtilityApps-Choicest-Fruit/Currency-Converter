@@ -122,3 +122,77 @@ header {
     color: #35eb25;
     background: rgba(255,255,255,0.08);
 }
+
+.contact-container {
+    background: #000;
+    color: #fff;
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 32px 28px;
+    border-radius: 16px;
+    box-shadow: 0 6px 32px rgba(0,0,0,0.12);
+}
+
+.contact-container h2 {
+    text-align: center;
+    color: #35eb25;
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 24px;
+}
+
+.contact-container label {
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 16px;
+    color: #35eb25;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    background: #181818;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    font-size: 1em;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+.contact-container input:focus,
+.contact-container textarea:focus {
+    border: 1.5px solid #35eb25;
+    outline: none;
+    box-shadow: 0 0 6px #35eb2577;
+}
+
+.contact-container button {
+    width: 100%;
+    padding: 12px;
+    background: #35eb25;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 18px;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.contact-container button:hover {
+    background: #30b82d;
+    transform: translateY(-2px);
+}
+
+.contact-container button:active {
+    transform: translateY(0);
+}
