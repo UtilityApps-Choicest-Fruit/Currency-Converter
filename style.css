@@ -1,6 +1,6 @@
 /* Set a background color and font for the whole page */
 body {
-    background: #ebf1fd;
+    background: #114dc7;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
 
 /* Center the converter container */
 .converter-container {
-    background: #fff;
+    background: #3e0772;
     max-width: 400px;
     margin: 60px auto;
     padding: 32px 24px;
@@ -27,7 +27,7 @@ input, select {
     width: 100%;
     padding: 10px;
     margin: 12px 0;
-    border: 1px solid #ccc;
+    border: 1px solid #e70e0e;
     border-radius: 6px;
     font-size: 1em;
 }
@@ -54,5 +54,9 @@ button:hover {
     margin-top: 20px;
     text-align: center;
     font-size: 1.2em;
-    color: #2563eb;
+    color: #35eb25;
+}
+
+.converter {
+    background-color:#35eb25
 }
