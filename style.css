@@ -60,3 +60,65 @@ button:hover {
 .converter {
     background-color:#35eb25
 }
+
+/* ...existing code... */
+
+.about-container {
+    background: #fff;
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.about-container h2 {
+    color: #114dc7;
+    text-align: center;
+}
+
+.about-container ul {
+    padding-left: 24px;
+}
+
+.about-container li {
+    margin-bottom: 8px;
+    color: #3e0772;
+}
+
+.about-container p {
+    color: #333;
+    text-align: center;
+}
+
+/* ...existing code... */
+
+header {
+    background: #3e0772;
+    border-radius: 0 0 12px 12px;
+    margin-bottom: 32px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 18px 0;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.2s;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+    color: #35eb25;
+    background: rgba(255,255,255,0.08);
+}
